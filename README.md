@@ -8,6 +8,8 @@ Just download the files and execute the installation script from PowerShell.
 
 No administrative privileges required, which means that it is installed for only for the current user.
 
+However, if the use of scripts is restricted in your system, run the following command as administrator "Set-ExecutionPolicy Unrestricted".
+
 It adds Cowsay (https://github.com/kanej/Posh-Cowsay) to your PowerShell modules and configures your PowerShell profile as per this example (https://anjaz.ch/2015/08/24/motd-for-powershell-using-the-fortune-mod-linux-package-files/).
 
 At the end, a cow should tell you a random fortune each time that you open a new PowerShell console.
