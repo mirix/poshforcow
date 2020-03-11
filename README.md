@@ -16,7 +16,7 @@ Furthermore, you can invoke the function "fortune" in order to make it happen ag
 
 INSTALL
 
-1. Open PowerShell and change directory to the place to which you have cloned or expanded the POSH_CowSay folder. You should have three files: Install.ps1, cowsay.psm1, and fortune_cookies.txt.
+1. Open PowerShell and change directory to the place to which you have cloned or expanded the poshforcow-master folder. You should have three files: Install.ps1, cowsay.psm1, and fortune_cookies.txt.
 2. Run the installation script:
    .\Install.ps1
 3. You are done! Just open a new PowerShell and have fun. 
