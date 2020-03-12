@@ -14,7 +14,9 @@ It installs the Fortune, Cowsay and Poshcow modules and modifies your PowerShell
 
 At the end, a cow should tell you a random fortune each time that you open a new PowerShell console.
 
-Furthermore, you can invoke the function "poshcow" in order to make it happen again and again. Likewise, "fortune" will just output a fortune cookie, without cow. 
+Furthermore, you can invoke the function "poshcow" in order to make it happen again and again. Likewise, "fortune" will just output a fortune cookie, without cow.
+
+For uninstalling, just run the uninstall script as the user who originally installed the modules.
 
 INSTALL
 
@@ -23,4 +25,4 @@ INSTALL
    .\Install.ps1
 3. You are done! Just open a new PowerShell and have fun. 
 
-NOTE: If you have installed a previous version (prior to 13 March 2020), please, edit your user's PowerShell profile manually prior to running the installation script. The current version can automatically handle updates. 
+NOTE: If you have previously installed an old version (older than 13 March 2020), please, edit your user's PowerShell profile manually prior to running the installation script (even after running the uninstall script). The current version can automatically handle updates. 
