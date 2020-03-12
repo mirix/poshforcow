@@ -1,6 +1,6 @@
 # poshforcow
 
-Fortune plus Cowsay for PowerShell
+PoshCow: Fortune plus Cowsay for PowerShell
 
 This brings the fun of UNIX Fortune and Cowsay to PowerShell in a very simple way.
 
@@ -10,11 +10,11 @@ No administrative privileges required, which means that it is installed for only
 
 However, if the use of scripts is restricted in your system, run the following command as administrator "Set-ExecutionPolicy Unrestricted".
 
-It adds Cowsay (https://github.com/kanej/Posh-Cowsay) to your PowerShell modules and configures your PowerShell profile as per this example (https://anjaz.ch/2015/08/24/motd-for-powershell-using-the-fortune-mod-linux-package-files/).
+It creates the Fortune, Cowsay and Poshcow modules.
 
 At the end, a cow should tell you a random fortune each time that you open a new PowerShell console.
 
-Furthermore, you can invoke the function "fortune" in order to make it happen again and again.
+Furthermore, you can invoke the function "poshcow" in order to make it happen again and again. Likewise, "fortune" will just output a fortune cookie, without cow. 
 
 INSTALL
 
@@ -22,3 +22,5 @@ INSTALL
 2. Run the installation script:
    .\Install.ps1
 3. You are done! Just open a new PowerShell and have fun. 
+
+NOTE: If you have installed a previous version (prior to 13 March 2020), please, edit your local user's PowerShell profile manually prior to running the installation script. The current version can automatically handle updates. 
