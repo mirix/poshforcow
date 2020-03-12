@@ -18,7 +18,7 @@ Furthermore, you can invoke the function "poshcow" in order to make it happen ag
 
 INSTALL
 
-1. Open PowerShell and change directory to the place to which you have cloned or expanded the poshforcow-master folder. You should have four files: Install.ps1, cowsay.psm1, fortune.psm1 and poshcow.psm1.
+1. Open PowerShell and change directory to the place to which you have cloned or expanded the poshforcow-master folder. The foloowing four files are strictly required: Install.ps1, cowsay.psm1, fortune.psm1 and poshcow.psm1.
 2. Run the installation script:
    .\Install.ps1
 3. You are done! Just open a new PowerShell and have fun. 
