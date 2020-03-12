@@ -23,4 +23,4 @@ INSTALL
    .\Install.ps1
 3. You are done! Just open a new PowerShell and have fun. 
 
-NOTE: If you have installed a previous version (prior to 13 March 2020), please, edit your local user's PowerShell profile manually prior to running the installation script. The current version can automatically handle updates. 
+NOTE: If you have installed a previous version (prior to 13 March 2020), please, edit your user's PowerShell profile manually prior to running the installation script. The current version can automatically handle updates. 
